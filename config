@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/omkarshinde221/myfirstapp.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "heroku"]
+	url = https://git.heroku.com/myfirstapp-covid.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
